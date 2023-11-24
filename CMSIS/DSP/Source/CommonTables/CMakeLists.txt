@@ -50,3 +50,5 @@ if (WRAPPER)
     target_compile_definitions(CMSISDSPCommon PUBLIC ARM_TABLE_TWIDDLECOEF_F16_4096)
     endif()
 endif()
+
+install(TARGETS CMSISDSPCommon LIBRARY)

@@ -115,3 +115,5 @@ target_sources(CMSISDSPStatistics PRIVATE arm_absmin_f16.c)
 target_sources(CMSISDSPStatistics PRIVATE arm_absmax_no_idx_f16.c)
 target_sources(CMSISDSPStatistics PRIVATE arm_absmin_no_idx_f16.c)
 endif()
+
+install(TARGETS CMSISDSPStatistics LIBRARY)

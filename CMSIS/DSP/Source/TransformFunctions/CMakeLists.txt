@@ -209,5 +209,4 @@ endif()
 ### Includes
 target_include_directories(CMSISDSPTransform PUBLIC "${DSP}/Include")
 
-
-
+install(TARGETS CMSISDSPTransform LIBRARY)

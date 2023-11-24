@@ -37,5 +37,4 @@ configDsp(CMSISDSPBasicMath ${ROOT})
 ### Includes
 target_include_directories(CMSISDSPBasicMath PUBLIC "${DSP}/Include")
 
-
-
+install(TARGETS CMSISDSPBasicMath LIBRARY)

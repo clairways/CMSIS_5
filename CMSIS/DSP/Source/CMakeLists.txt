@@ -306,5 +306,6 @@ endif()
 ### Includes
 target_include_directories(CMSISDSP INTERFACE "${DSP}/Include")
 
-
-
+install(DIRECTORY "${DSP}/Include/"             DESTINATION include)
+install(DIRECTORY "${DSP}/Include/dsp/"         DESTINATION include)
+install(DIRECTORY "${ROOT}/CMSIS/Core/Include/" DESTINATION include)

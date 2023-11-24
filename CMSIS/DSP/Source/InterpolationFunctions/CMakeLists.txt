@@ -32,3 +32,5 @@ if ((NOT ARMAC5) AND (NOT DISABLEFLOAT16))
 target_sources(CMSISDSPInterpolation PRIVATE arm_bilinear_interp_f16.c)
 target_sources(CMSISDSPInterpolation PRIVATE arm_linear_interp_f16.c)
 endif()
+
+install(TARGETS CMSISDSPInterpolation LIBRARY)

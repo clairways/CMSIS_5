@@ -144,5 +144,4 @@ endif()
 ### Includes
 target_include_directories(CMSISDSPFiltering PUBLIC "${DSP}/Include")
 
-
-
+install(TARGETS CMSISDSPFiltering LIBRARY)

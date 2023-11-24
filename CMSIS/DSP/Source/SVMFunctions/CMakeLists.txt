@@ -36,6 +36,4 @@ target_sources(CMSISDSPSVM PRIVATE arm_svm_polynomial_predict_f16.c)
 target_sources(CMSISDSPSVM PRIVATE arm_svm_sigmoid_predict_f16.c)
 endif()
 
-
-
-
+install(TARGETS CMSISDSPSVM LIBRARY)

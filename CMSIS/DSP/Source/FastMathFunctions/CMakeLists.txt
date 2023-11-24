@@ -76,5 +76,4 @@ target_sources(CMSISDSPFastMath PRIVATE arm_atan2_q15.c)
 ### Includes
 target_include_directories(CMSISDSPFastMath PUBLIC "${DSP}/Include")
 
-
-
+install(TARGETS CMSISDSPFastMath LIBRARY)

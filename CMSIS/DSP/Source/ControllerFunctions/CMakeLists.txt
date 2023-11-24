@@ -38,4 +38,4 @@ endif()
 target_include_directories(CMSISDSPController PUBLIC "${DSP}/Include")
 
 
-
+install(TARGETS CMSISDSPController LIBRARY)
